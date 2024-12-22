@@ -1,5 +1,10 @@
 # Mr.POSTMAN2
 
+## 動画URL
+
+https://youtu.be/CVUhLWBotgM
+
+
 ## 動作条件
 
 - メモリは16KBです。

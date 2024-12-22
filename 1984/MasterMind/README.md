@@ -1,5 +1,10 @@
 ## MASTER MIND かんたんなドキュメント
 
+## 動画URL
+
+https://youtu.be/fKk46jrku4c
+
+
 ### 動作条件
 
 - メモリは16KB/32KBどちらでも大丈夫です
