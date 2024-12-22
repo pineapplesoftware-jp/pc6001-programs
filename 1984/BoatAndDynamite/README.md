@@ -2,6 +2,11 @@
 
 <img src="images/bd_title.png" width=200 />
 
+## 動画URL
+
+https://youtu.be/MWzhimM_9zM
+
+
 ### 動作条件
 
 - メモリは16KB/32KBどちらでも大丈夫です

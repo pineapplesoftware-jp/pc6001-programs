@@ -2,6 +2,11 @@
 
 <img src="images/PC60_SNAKE_TITLE_01.png" width=500 />
 
+## 動画URL
+
+https://youtu.be/B7txVXRKd7w
+
+
 ## 動作条件
 
 - メモリは***必ず 16KB***にしてください

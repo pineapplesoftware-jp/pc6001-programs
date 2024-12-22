@@ -4,6 +4,7 @@
 
 - [Hexagonal Minesweeper](#hexagonal-minesweeper)
 	- [Brief Story](#brief-story)
+	- [Video URL](#video-url)
 	- [Operating Conditions](#operating-conditions)
 	- [How to Launch the Program](#how-to-launch-the-program)
 	- [How to Play and Rules](#how-to-play-and-rules)
@@ -22,6 +23,11 @@ I’ve been tasked with disarming landmines buried somewhere on hexagonal tiles.
 Along with my secret weapon to prevent explosions,
 I will disarm all the mines and
 bring peace back to this area!
+
+## Video URL
+
+https://youtu.be/t3_aO1-rc-U
+
 
 ## Operating Conditions
 

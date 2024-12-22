@@ -10,6 +10,11 @@ LIFE GAMEとは、1970年に数学者のジョン・コンウェイさんが考�
 https://ja.wikipedia.org/wiki/ライフゲーム
 
 
+## 動画URL
+
+https://youtu.be/Lbjn_EXe1oM
+
+
 ## 動作条件
 
 - メモリは16KB/32KBどちらでもOKです。
