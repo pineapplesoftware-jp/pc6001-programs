@@ -1,5 +1,7 @@
 ## MASTER MIND かんたんなドキュメント
 
+<img src="images/mm_title.png" />
+
 ## 動画URL
 
 https://youtu.be/fKk46jrku4c
@@ -80,5 +82,5 @@ x ハズレ
 入力が終わると、右側にヒントが表示されます。<br/>
 全て正解ならプレイヤーの勝ちとなります。
 
-
+<img src="images/mm_main_01.png" width=50% />
 

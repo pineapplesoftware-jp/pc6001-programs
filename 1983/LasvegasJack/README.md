@@ -59,5 +59,5 @@ https://youtu.be/PenTHfZ7E0g
 あなたが負けた場合は持ち金から賭け金が没収されます。  
 BLACK JACK （手持ちの札の合計が21）になると掛け金は２倍になります。
 
-
+<img src="images/lj_main_01.png" width=50% />
 
