@@ -59,4 +59,11 @@ Please download and play if you like.　:)<br>
 <img src="2024/HexagonalMineSweeper/images/hms_main02.png" width=300 />
 
 
+### 2025年
+
+[DEGON 2K25](2025/DEGON2K25/README_jp.md)
+
+<img src="2025/DEGON2K25/images/d2k_rule_01.png" width=300 />
+
+
 
