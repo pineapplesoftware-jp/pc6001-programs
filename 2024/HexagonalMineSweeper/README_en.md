@@ -1,20 +1,21 @@
+<!-- markdownlint-disable MD033 -->
+
 # Hexagonal Minesweeper
 
 (Use chat-GPT translate...)
 
 - [Hexagonal Minesweeper](#hexagonal-minesweeper)
-	- [Brief Story](#brief-story)
-	- [Video URL](#video-url)
-	- [Operating Conditions](#operating-conditions)
-	- [How to Launch the Program](#how-to-launch-the-program)
-	- [How to Play and Rules](#how-to-play-and-rules)
-		- [Title Screen](#title-screen)
-	- [Rules](#rules)
-	- [Development Reflection](#development-reflection)
-		- [August](#august)
-		- [September-October](#september-october)
-		- [November](#november)
-
+  - [Brief Story](#brief-story)
+  - [Video URL](#video-url)
+  - [Operating Conditions](#operating-conditions)
+  - [How to Launch the Program](#how-to-launch-the-program)
+  - [How to Play and Rules](#how-to-play-and-rules)
+    - [Title Screen](#title-screen)
+  - [Rules](#rules)
+  - [Development Reflection](#development-reflection)
+    - [August](#august)
+    - [September-October](#september-october)
+    - [November](#november)
 
 ## Brief Story
 
@@ -26,8 +27,7 @@ bring peace back to this area!
 
 ## Video URL
 
-https://youtu.be/t3_aO1-rc-U
-
+[https://youtu.be/t3_aO1-rc-U](https://youtu.be/t3_aO1-rc-U)
 
 ## Operating Conditions
 
@@ -48,14 +48,13 @@ Press the `2` key, then press the `RETURN` key.
   - It will be loaded as `HMS322`.
 - Type `RUN` and press `RETURN` to execute the **RUN** command.
 
-
 ## How to Play and Rules
 
 ### Title Screen
 
 When the game starts, the PINEAPPLE logo will be displayed, followed by the title screen.
 
-<img src="images/hms_titl01.png" width=600 />
+<img src="images/hms_titl01.png" alt="titl01" width=600 />
 
 On this screen, you can change the following settings using the arrow keys:
 
@@ -66,18 +65,17 @@ On this screen, you can change the following settings using the arrow keys:
 Use the up and down arrows to select an option, and the left and right arrows to change the values.  
 When the option is set to "START GAME!", press `SPACE` to start the game.
 
-
 ## Rules
 
 This game is very similar to Microsoft Minesweeper.  
 The difference here is that the playfield consists of hexagonal tiles.
 
-<img src="images/hms_main01.png" width=600 />
+<img src="images/hms_main01.png" alt="main01" width=600 />
 
 At the start, all tiles are closed (yellow tiles).  
 You control the cross cursor in the center and open the tiles.
 
-```
+```text
 Keys used:
 - Arrow keys: Move the cross cursor
 - [SPACE] key: Open the tile at the cursor's location
@@ -89,16 +87,15 @@ If a mine is present on an opened tile, the mine will explode, and the game is o
 
 If there is one or more mines surrounding an opened tile, the number of mines is displayed. If there are no mines around the opened tile, the surrounding six tiles will also be opened.
 
-<img src="images/hms_main03.png" />
+<img src="images/hms_main03.png" alt="main03" />
 
 If you think a tile might contain a mine, you can place a flag to mark it. Move the cross cursor to the tile you want to mark and press the SHIFT key once to place a flag. Pressing SHIFT again places a question mark, which can be used when you're unsure whether there's a mine. Press SHIFT one more time to remove the flag or question mark.
 
-<img src="images/hms_main04.png" />
+<img src="images/hms_main04.png" alt="main04" />
 
 If you open all the tiles except the mines within the time limit, you win.
 
-<img src="images/hms_main02.png" width=600 />
-
+<img src="images/hms_main02.png" alt="main02" width=600 />
 
 ## Development Reflection
 
@@ -117,13 +114,12 @@ In rough terms, I started in August and hoped to finish by September or October.
 In August, I ended up spending time thinking about what kind of screen design I wanted, and working on small features.  
 That’s basically how the month went by.
 
-<img src="images/hms_idea01.jpg" />
+<img src="images/hms_idea01.jpg" alt="idea01" />
 
 Looking at this paper…  
 At first, I thought it would be nice to have an option to select the area size, but after playing it, I found that anything smaller than 14 x 13 tiles was too small, so I scrapped it. Also, the time limit was initially going to be specified in seconds, but that seemed like too much hassle, so I dropped that as well. There’s also a note about the mine explosion being like "UPL’s explosion (Omega Fighter)," but I ended up scrapping that too.
 
 (*) Is the development style still from the 80s?
-
 
 ### September-October
 
@@ -131,55 +127,55 @@ In September and October, I started putting together the main parts of the game,
 
 For the graphics data, I used a tool called Yonten (SCREEN3), and created the graphics with it.
 
-<img src="images/hms_yonten01.png" />
+<img src="images/hms_yonten01.png" alt="yonten01" />
 
 The functionality is basic, but the custom export feature that allows you to specify how to output data in json format was very useful. The output is in assembler source code.
 
-<img src="images/hms_yonten02.png" />
+<img src="images/hms_yonten02.png" alt="yonten02" />
 
 Here’s an example of the json file:
 
 ```json
 {
-	"Name": "hms_title_asm",
-	"ImagePacs": [
-		{
-			"Name": "title_logo",
-			"Width": 16,
-			"Height": 31,
-			"Locates": [
-				{ "X":   0, "Y": 0 },
-				{ "X":  16, "Y": 0 },
-				{ "X":  32, "Y": 0 },
-				{ "X":  48, "Y": 0 },
-				{ "X":  64, "Y": 0 },
-				{ "X":  80, "Y": 0 },
-				{ "X":  96, "Y": 0 },
-				{ "X": 112, "Y": 0 },
-				{ "X":   0, "Y": 32 },
-				{ "X":  16, "Y": 32 }
-			]
-		}
-	]
+    "Name": "hms_title_asm",
+    "ImagePacs": [
+        {
+            "Name": "title_logo",
+            "Width": 16,
+            "Height": 31,
+            "Locates": [
+                { "X":   0, "Y": 0 },
+                { "X":  16, "Y": 0 },
+                { "X":  32, "Y": 0 },
+                { "X":  48, "Y": 0 },
+                { "X":  64, "Y": 0 },
+                { "X":  80, "Y": 0 },
+                { "X":  96, "Y": 0 },
+                { "X": 112, "Y": 0 },
+                { "X":   0, "Y": 32 },
+                { "X":  16, "Y": 32 }
+            ]
+        }
+    ]
 }
 ```
 
 Here’s the assembler source that gets output:
 
-```
+```asm
 ; --------
 ; title_logo
 ; --------
 ; Locate(0,0)
-		DB	00H,2AH,00H,00H
-		DB	00H,2AH,00H,00H
-			:
-		DB	80H,00H,00H,A0H
-		DB	80H,00H,02H,80H
+        DB  00H,2AH,00H,00H
+        DB  00H,2AH,00H,00H
+            :
+        DB  80H,00H,00H,A0H
+        DB  80H,00H,02H,80H
 ; Locate(16,0)
-		DB	00H,28H,A8H,00H
-		DB	00H,2AH,A8H,00H
-			:
+        DB  00H,28H,A8H,00H
+        DB  00H,2AH,A8H,00H
+            :
 ```
 
 ### November
@@ -189,5 +185,3 @@ Also, since Minesweeper is a puzzle game but sometimes feels like a game of chan
 
 I used TINY Yarou-san's [Nan Demo P-Ga MkII](https://www.tiny-yarou.com/datarec.html) for converting it to WAV.
 Thank you very much. 🙇‍♂️
-
-

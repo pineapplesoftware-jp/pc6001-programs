@@ -1,6 +1,8 @@
-## LASVEGAS JACK
+# LASVEGAS JACK
 
-<img src="images/lj_title.png" />
+<!-- markdownlint-disable MD033 -->
+
+<img src="images/lj_title.png" alt="title" />
 
 ラスベガスに行ってブラックジャックで大儲け！…というわけで  
 1983年に作ったトランプゲームのブラックジャックです。
@@ -11,8 +13,7 @@
 
 ## 動画URL
 
-https://youtu.be/PenTHfZ7E0g
-
+[https://youtu.be/PenTHfZ7E0g](https://youtu.be/PenTHfZ7E0g)
 
 ### 動作条件
 
@@ -59,5 +60,4 @@ https://youtu.be/PenTHfZ7E0g
 あなたが負けた場合は持ち金から賭け金が没収されます。  
 BLACK JACK （手持ちの札の合計が21）になると掛け金は２倍になります。
 
-<img src="images/lj_main_01.png" width=50% />
-
+<img src="images/lj_main_01.png" alt="main_01" width=50% />

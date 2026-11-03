@@ -1,5 +1,7 @@
 # LIFE GAME
 
+<!-- markdownlint-disable MD033 -->
+
 ## LIFE GAMEについて
 
 LIFE GAMEとは、1970年に数学者のジョン・コンウェイさんが考えたゲームです。  
@@ -7,13 +9,11 @@ LIFE GAMEとは、1970年に数学者のジョン・コンウェイさんが考�
 
 さらに詳しく知りたいときは、Wikipedia を見ていただくとサンプルなどもあり楽しそうなので、そちらのほうを見ていただいたほうが良いかと思われます。
 
-https://ja.wikipedia.org/wiki/ライフゲーム
-
+[https://ja.wikipedia.org/wiki/ライフゲーム](https://ja.wikipedia.org/wiki/ライフゲーム)
 
 ## 動画URL
 
-https://youtu.be/Lbjn_EXe1oM
-
+[https://youtu.be/Lbjn_EXe1oM](https://youtu.be/Lbjn_EXe1oM)
 
 ## 動作条件
 
@@ -41,19 +41,18 @@ PC60_LIFEGAME_16k_p2_edit_44100.wav １つのみです。
 
 「CITYさくせいモード」では、カーソルキーで画面の四角（□）を動かして、`SPACE`キーで点を打ったり消したりします。これでライフゲームの初期画面を作成します。完成したら `SHIFT`キーを押し開始します。
 
-<img src="images/readme_create_city01.png" width=50% />
+<img src="images/readme_create_city01.png" alt="create_city01" width=50% />
 
 開始されると、現在の世代の誕生（下画面：赤色）と死滅（下画面：水色）が計算され表示されます。
 
 ※実行環境により表示される色は異なります。
 
-<img src="images/readme_main01.png" width=50% />
+<img src="images/readme_main01.png" alt="main01" width=50% />
 
 誕生が生存表示になり死滅が取り除かれて世代が１つ進みます。その状況が画面に反映されます。
 
-<img src="images/readme_main02.png" width=50% />
+<img src="images/readme_main02.png" alt="main02" width=50% />
 
 このように世代がどんどん移り変わるさまを眺めます。`SPACE`キーを押してる間だけポーズ状態になります。`SHIFT`キーで結果表示となります。
 
-<img src="images/readme_end01.png" width=50% />
-
+<img src="images/readme_end01.png" alt="end01" width=50% />
