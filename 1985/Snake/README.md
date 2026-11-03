@@ -1,11 +1,12 @@
 # おろち・ド・ロード
 
-<img src="images/PC60_SNAKE_TITLE_01.png" width=500 />
+<!-- markdownlint-disable MD033 -->
+
+<img src="images/PC60_SNAKE_TITLE_01.png" alt="TITLE_01" width=500 />
 
 ## 動画URL
 
-https://youtu.be/B7txVXRKd7w
-
+[https://youtu.be/B7txVXRKd7w](https://youtu.be/B7txVXRKd7w)
 
 ## 動作条件
 
@@ -46,17 +47,12 @@ SPACEキーを押すと自分のヘビの向きが反転します。
 プレイエリア内にあるファストポイント'Ｆ'を取ると、
 全体の速度が少し上がって、エサの点数が倍になります。
 
-<img src="images/PC60_SNAKE_G_01.png" width=50% />
+<img src="images/PC60_SNAKE_G_01.png" alt="SNAKE_G_01" width=50% />
 
 '＃'は壁で、通れません。  
 '＊'は草むらで、通れます。通ると草むらは消えます。
 また、敵は草むらを通れません。これを利用して敵をはめることが出来ます。
 
-<img src="images/PC60_SNAKE_G_02.png" width=50% />
+<img src="images/PC60_SNAKE_G_02.png" alt="SNAKE_G_02" width=50% />
 
 全てのチェックポイント'Ｃ'を取るとサイドクリアとなります。
-
-
-
-
-

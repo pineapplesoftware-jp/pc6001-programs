@@ -1,18 +1,19 @@
-## ボートアンドダイナマイトのドキュメント
+# ボートアンドダイナマイト
 
-<img src="images/bd_title.png" width=200 />
+<!-- markdownlint-disable MD033 -->
+
+<img src="images/bd_title.png" alt="title" width=200 />
 
 ## 動画URL
 
-https://youtu.be/MWzhimM_9zM
+[https://youtu.be/MWzhimM_9zM](https://youtu.be/MWzhimM_9zM)
 
-
-### 動作条件
+## 動作条件
 
 - メモリは16KB/32KBどちらでも大丈夫です
 - ページ数は1/2どちらでも大丈夫です
 
-### プログラムの起動方法
+## プログラムの起動方法
 
 起動までの手順はこんな感じです。
 
@@ -24,42 +25,34 @@ https://youtu.be/MWzhimM_9zM
   - `B&D` という名前で読み込まれます
 - ***RUN***コマンドでプログラムを実行します
 
-
-
-### ルール
+## ルール
 
 左から順に１，２，３の番号が振られている３つのボートがありまして、最初１番目のボートにダイナマイトが下から重い順に並んでいます。
 
-<img src="images/bd_rule_01.png" />
+<img src="images/bd_rule_01.png" alt="rule_01" />
 
 これを１度に１つずつ移動して…
 
-<img src="images/bd_rule_02.png" />
+<img src="images/bd_rule_02.png" alt="rule_02" />
 
-<img src="images/bd_rule_03.png" />
-
+<img src="images/bd_rule_03.png" alt="rule_03" />
 
 ３番目のボートにダイナマイトを全て移動すれば成功となります。
 
-<img src="images/bd_rule_04.png" />
+<img src="images/bd_rule_04.png" alt="rule_04" />
 
 ただし、軽いダイナマイトのすぐ上に重いダイナマイトを置くと爆発してゲームオーバーになります。例えば以下の図のように１ｋｇのダイナマイトの上に２ｋｇのダイナマイトを置くと爆発します。
 
-<img src="images/bd_rule_05.png" />
+<img src="images/bd_rule_05.png" alt="rule_05" />
 
-
-
-### 操作方法
+## 操作方法
 
 プログラムを実行すると、まず移動するダイナマイトの数を訊いてきますので、３～１０までの数字を入力して`RETURN`を押してください。
 
-<img src="images/bd_play_01.png" width=50% />
+<img src="images/bd_play_01.png" alt="play_01" width=50% />
 
 「どこから　どこへ　うつしますか？」と訊かれるので、移動元のボート番号、カンマ、移動先のボード番号の順に入力し`RETURN`を押してください。例えば、１番目のボートの１ｋｇのダイナマイトを２番目のボートに移動するには`1` `,` `2` `RETURN` と入力します。
 
 全てのダイナマイトを３番目のボートに移動したら成功となります。
 
-<img src="images/bd_play_02.png" width=50% />
-
-
-
+<img src="images/bd_play_02.png" alt="play_02" width=50% />

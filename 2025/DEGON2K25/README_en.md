@@ -1,33 +1,35 @@
 # DEGON 2K25
 
-<img src="images/d2k_catch01.png" width=600 />
+<!-- markdownlint-disable MD033 -->
+
+<img src="images/d2k_catch01.png" alt="catch01" width=600 />
 
 - [DEGON 2K25](#degon-2k25)
-	- [Brief Story](#brief-story)
-	- [Video URL](#video-url)
-	- [Operating Requirements](#operating-requirements)
-	- [How to Start the Program](#how-to-start-the-program)
-	- [Controls and Rules](#controls-and-rules)
-		- [Title Screen](#title-screen)
-		- [Quick Rules](#quick-rules)
-	- [Chat](#chat)
+  - [Brief Story](#brief-story)
+  - [Video URL](#video-url)
+  - [Operating Requirements](#operating-requirements)
+  - [How to Start the Program](#how-to-start-the-program)
+  - [Controls and Rules](#controls-and-rules)
+    - [Title Screen](#title-screen)
+    - [Quick Rules](#quick-rules)
+  - [Chat](#chat)
 
 ## Brief Story
 
-Captain: "Aliens are attacking from space!"
-Subordinate: "Out of the blue, huh?"
-Captain: "The enemies are in the shape of numbers!"
-Subordinate: "What do you mean?"
-Captain: "You can defeat them with missiles shaped like the same numbers!"
-Subordinate: "Did we even have missiles like that?"
-Captain: "If the sum of the numbers you add up is divisible by 10, a UFO will appear!"
-Subordinate: "Will UFOs appear? Are the aliens invading on foot, anyway?"
-Captain: "Annihilate the aliens before we're invaded!"
-Subordinate: "I'll go do that for now."
+Captain: "Aliens are attacking from space!"  
+Subordinate: "Out of the blue, huh?"  
+Captain: "The enemies are in the shape of numbers!"  
+Subordinate: "What do you mean?"  
+Captain: "You can defeat them with missiles shaped like the same numbers!"  
+Subordinate: "Did we even have missiles like that?"  
+Captain: "If the sum of the numbers you add up is divisible by 10, a UFO will appear!"  
+Subordinate: "Will UFOs appear? Are the aliens invading on foot, anyway?"  
+Captain: "Annihilate the aliens before we're invaded!"  
+Subordinate: "I'll go do that for now."  
 
 ## Video URL
 
-https://youtu.be/HViDNL55Pq0
+[https://youtu.be/HViDNL55Pq0](https://youtu.be/HViDNL55Pq0)
 
 ## Operating Requirements
 
@@ -43,7 +45,7 @@ The startup procedure is as follows:
 - When it starts, it will display "How Many Pages?", so press the `1` key and then press the `RETURN` key.
 - Type `CLOAD` and press the `RETURN` key to execute the `CLOAD` command.
 - Play `P6_D2K_16k_p1.WAV` on the wav playback device.
-  - It will be loaded with the name `D25161`<br><img src="images/d2k_load_01.png" width=50% />
+  - It will be loaded with the name `D25161`<br><img src="images/d2k_load_01.png" alt="load_01" width=50% />
 - Type `RUN` and press the `RETURN` key to execute the `RUN` command.
 
 ## Controls and Rules
@@ -52,7 +54,7 @@ The startup procedure is as follows:
 
 When you start the game, the PINEAPPLE logo will be displayed, followed by the title screen.
 
-<img src="images/d2k_main_01.png"  width=600 />
+<img src="images/d2k_main_01.png" alt="main_01" width=600 />
 
 Press the [SPACE] key to start the game.
 
@@ -71,7 +73,7 @@ With each clear, the speed of the attacking numbers increases.
 
 The game is over if you are invaded 3 times in one stage.
 
-<img src="images/d2k_rule_01.png"  width=600 />
+<img src="images/d2k_rule_01.png" alt="rule_01" width=600 />
 
 ## Chat
 
@@ -91,6 +93,4 @@ I was a bit out of work, so I used that time for it... 😱
 The "interesting!" point in this development is the 7-segment display.
 Well, I'll write about that in a separate document when I feel like it.
 
-<img src="images/d2k_chat_01.png"  width=600 />
-
-
+<img src="images/d2k_chat_01.png" alt="chat_01" width=600 />

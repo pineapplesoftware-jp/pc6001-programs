@@ -1,9 +1,10 @@
 # Mr.POSTMAN2
 
+<!-- markdownlint-disable MD033 -->
+
 ## 動画URL
 
-https://youtu.be/CVUhLWBotgM
-
+[https://youtu.be/CVUhLWBotgM](https://youtu.be/CVUhLWBotgM)
 
 ## 動作条件
 
@@ -32,7 +33,8 @@ https://youtu.be/CVUhLWBotgM
 
 ### タイトル画面
 
-<img src="images/post2_title_01.png" />
+<img src="images/post2_title_01.png" alt="title_01" />
+
 タイトル画面で、しばらくすると  
 「スペースを　おしてちょ」という表示が出ます。  
 この時に`SPACE`キーを押すことでゲームが開始されます。
@@ -42,7 +44,7 @@ https://youtu.be/CVUhLWBotgM
 ポストマンを操作し、画面のあちこちにある郵便物をポストに全部押し入れるとクリアになるパズルゲームです。
 ステージは全部で８つあります。
 
-<img src="images/post2_main_01.png" />
+<img src="images/post2_main_01.png" alt="main_01" />
 
 ルール：
 
@@ -51,5 +53,3 @@ https://youtu.be/CVUhLWBotgM
 - ブロックには押せるものと押せないものがあります。
   押せるものでも２つ以上同時には押すことが出来ません。
 - ブロックや郵便物を引っ張ることは出来ません。
-
-

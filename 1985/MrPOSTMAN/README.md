@@ -1,9 +1,10 @@
 # Mr.POSTMAN
 
+<!-- markdownlint-disable MD033 -->
+
 ## 動画URL
 
-https://youtu.be/J4vHpH6UfAk
-
+[https://youtu.be/J4vHpH6UfAk](https://youtu.be/J4vHpH6UfAk)
 
 ## 動作条件
 
@@ -28,12 +29,12 @@ P6_MrPOSTMAN_16k_p2.wav １つのみです。
 - ゲーム中は、カーソルキーでポストマンを操作します
 - ゲーム中に`SPACE`キーを押すとギブアップになります
 
-### ゲームの説明
+## ゲームの説明
 
 エリアにあっちこっちに落ちている４枚のはがき集めて
 ポストに持っていくパズルゲームです。
 
-<img src="images/screenshot01.png" />
+<img src="images/screenshot01.png" alt="screenshot01" />
 
 ・アイテムに重なるとそのアイテムを取ります。
 ・取ったアイテムは４つまで持つことができます。
@@ -43,5 +44,3 @@ P6_MrPOSTMAN_16k_p2.wav １つのみです。
 ・乾電池を１つでも持つと失敗となります。
 
 ステージは１丁目から３丁目まであります。
-
-

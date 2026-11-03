@@ -1,25 +1,25 @@
 # GALAXY BEES
 
-<img src="images/gb_title.png" />
+<!-- markdownlint-disable MD033 -->
+
+<img src="images/gb_title.png" alt="gb_title" />
 
 ※30年前に作ったゲームのドキュメントの挿絵をAIに描かせるってなんかスゴイよね…😱
 
 ## もくじ
 
 - [GALAXY BEES](#galaxy-bees)
-	- [もくじ](#もくじ)
-	- [動画URL](#動画url)
-	- [動作条件](#動作条件)
-	- [プログラムの起動方法](#プログラムの起動方法)
-	- [タイトル画面](#タイトル画面)
-	- [あそびかた](#あそびかた)
-	- [よもやま話](#よもやま話)
-
+  - [もくじ](#もくじ)
+  - [動画URL](#動画url)
+  - [動作条件](#動作条件)
+  - [プログラムの起動方法](#プログラムの起動方法)
+  - [タイトル画面](#タイトル画面)
+  - [あそびかた](#あそびかた)
+  - [よもやま話](#よもやま話)
 
 ## 動画URL
 
-https://youtu.be/PpR7dJhvrDI
-
+[https://youtu.be/PpR7dJhvrDI](https://youtu.be/PpR7dJhvrDI)
 
 ## 動作条件
 
@@ -40,7 +40,7 @@ https://youtu.be/PpR7dJhvrDI
 - How Many Pages? は`3`を指定してください
 - ***CLOAD***コマンドを実行します
 - wav再生デバイスで`PC60_GB_1_I.wav`を再生します
-  - `GB/I` という名前で読み込まれます<br/><img src="images/gb_load_01.png" width=50% />
+  - `GB/I` という名前で読み込まれます<br/><img src="images/gb_load_01.png" alt="gb_load_01" width=50% />
 
 - ***RUN***コマンドでプログラムを実行します
   - すぐに次のプログラム読み込みが開始されます
@@ -48,17 +48,15 @@ https://youtu.be/PpR7dJhvrDI
   - `GB` という名前で読み込まれます
   - 読み込みが完了すると、引き続きBASICのプログラムをロードします
 - wav再生デバイスで`PC60_GB_3_B_edit.wav`を再生します
-  - `GB/B` という名前で読み込まれます<br/><img src="images/gb_load_02.png" width=50% />
+  - `GB/B` という名前で読み込まれます<br/><img src="images/gb_load_02.png" alt="gb_load_02" width=50% />
 - ***RUN***コマンドでプログラムを実行します
 - ジョイスティックを使うか？と訊かれるので使用するなら'y'しないなら'n'を入力します
 
-
 ## タイトル画面
 
-<img src="images/gb_main_01.png" />
+<img src="images/gb_main_01.png" alt="gb_main_01" />
 
 タイトル画面の時に `RETURN`キーを押すとゲームが始まります。
-
 
 ## あそびかた
 
@@ -73,8 +71,7 @@ https://youtu.be/PpR7dJhvrDI
 
 プレイヤーにエイリアンの放つビームやエイリアン本体が当たってしまうと１ミスです。
 
-<img src="images/gb_main_02.png" width=50% />
-
+<img src="images/gb_main_02.png" alt="gb_main_02" width=50% />
 
 ## よもやま話
 
@@ -88,7 +85,6 @@ https://youtu.be/PpR7dJhvrDI
 
 開発ノートをぺらぺらと見てたけど、処理速度厳しかったのかな？なにやら処理速度の検証みたいなのしてますな😅
 
-<img src="Docs/gb_yomo_01.png" />
+<img src="Docs/gb_yomo_01.png" alt="gb_yomo_01" />
 
 親友のTORAにも開発を手伝って貰ったような気がします。ありがとう！
-
